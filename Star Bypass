@@ -1,0 +1,31 @@
+local XenoSupportedGame = game.GameId == 3150475059 or game.GameId == 4931927012
+
+if (not hookfunction or not hookmetamethod) and not XenoSupportedGame then
+    game:GetService("Players").LocalPlayer:Kick('Your executor is not supported')
+    return
+end
+
+if not script_key then
+	game:GetService("Players").LocalPlayer:Kick("Quantum | Please make sure you include the script_key part ABOVE the loadstring, otherwise Luarmor will not be able to recognize that you bought.")
+	return
+end
+
+if game.GameId == 3150475059 then
+     if hookfunction and hookmetamethod then
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ef78e0cdea760494cc1cd2ecf379c808.lua"))()
+     else
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b5eb5ab4e62fa3229a5dfb089cf220af.lua"))()
+     end -- FF2
+elseif game.GameId == 4931927012 then
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bac6b27f68fb8bc67333e22590684414.lua"))() -- Basketball Legends
+elseif game.GameId == 6931042565 then
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b0bce84f55e1280b9332682da0514879.lua"))() -- Volleyball Legends
+elseif game.GameId == 3645347821 then
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/44522f2745666ad4fc2311604698c8e4.lua"))() -- BIG Paintball 2
+elseif game.GameId == 5113572498 then
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/81f3e84e16a62b84441a1eaa460a504b.lua"))() -- College Football
+elseif game.GameId == 8558141897 then
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/81f3e84e16a62b84441a1eaa460a504b.lua"))() -- Flag Football
+else
+     game:GetService("Players").LocalPlayer:Kick("Quantum | Game currently unsupported. Check the Supported-Games Channel for supported games.")
+end
