@@ -27,5 +27,5 @@ elseif game.GameId == 5113572498 then
 elseif game.GameId == 8558141897 then
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/81f3e84e16a62b84441a1eaa460a504b.lua"))() -- Flag Football
 else
-     game:GetService("Players").LocalPlayer:Kick("Quantum | Game currently unsupported. Check the Supported-Games Channel for supported games.")
+     game:GetService("Players").LocalPlayer:Kick("Star Bypass | Game currently unsupported. Check the Supported-Games Channel for supported games.")
 end
