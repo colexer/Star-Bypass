@@ -19,7 +19,7 @@ if game.GameId == 3150475059 then
 elseif game.GameId == 4931927012 then
      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bac6b27f68fb8bc67333e22590684414.lua"))() -- Basketball Legends
 elseif game.GameId == 6931042565 then
-     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b0bce84f55e1280b9332682da0514879.lua"))() -- Volleyball Legends
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7855b54c80f37168bec7f68ce6ca12fd.lua"))() -- JUCO
 elseif game.GameId == 3645347821 then
      loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d7d8d52be7b7fe33ab4e297e0e4eefac.lua"))() -- NFA/High School Foootball
 elseif game.GameId == 5113572498 then
