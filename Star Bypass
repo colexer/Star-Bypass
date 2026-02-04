@@ -17,7 +17,7 @@ if game.GameId == 3150475059 then
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b5eb5ab4e62fa3229a5dfb089cf220af.lua"))()
      end -- FF2
 elseif game.GameId == 4931927012 then
-     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bac6b27f68fb8bc67333e22590684414.lua"))() -- Basketball Legends
+     loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9e097cf77074202f1ee9800c09978a5a.lua"))() -- RFL
 elseif game.GameId == 16482386760 then
      loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7855b54c80f37168bec7f68ce6ca12fd.lua"))() -- JUCO
 elseif game.GameId == 91090484699204 then
