@@ -296,7 +296,7 @@ end
 local SilentFov, AimFov
 pcall(function()
     SilentFov = Drawing.new("Circle")
-    SilentFov.NumSides  = 64
+    SilentFov.NumSides  = 400
     SilentFov.Radius    = Config.Fov.Silent.Size
     SilentFov.Color     = Config.Fov.Silent.Color
     SilentFov.Thickness = Config.Fov.Silent.Thickness
@@ -305,7 +305,7 @@ pcall(function()
     SilentFov.Visible   = Config.Fov.Silent.Visible
 
     AimFov = Drawing.new("Circle")
-    AimFov.NumSides    = 64
+    AimFov.NumSides    = 400
     AimFov.Radius      = Config.Fov.AimAssist.Size
     AimFov.Color       = Config.Fov.AimAssist.Color
     AimFov.Thickness   = Config.Fov.AimAssist.Thickness
